@@ -1,11 +1,9 @@
 import React from "react";
-
+import HomePage from "./components/pages/HomePages";
+import "./assets/css/style.css";
 const App = () => {
-  return (
-    <div>
-      <h2>Hello World</h2>
-    </div>
-  );
+  const hello = "Hello World!!!";
+  return <HomePage />;
 };
 
 export default App;
